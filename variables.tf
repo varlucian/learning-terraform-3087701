@@ -21,12 +21,12 @@ variable "environment" {
   description = "Develoment Environment"
 
   type = object({
-    type           = string
+    name           = string
     network_perfix = string
   })
 
   default = {
-    type = "dev"
+    name           = "dev"
     network_perfix = "10.0"
   }
 }
