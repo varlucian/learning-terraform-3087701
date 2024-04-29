@@ -22,12 +22,12 @@ variable "environment" {
 
   type = object({
     name           = string
-    network_perfix = string
+    network_prefix = string
   })
 
   default = {
     name           = "dev"
-    network_perfix = "10.0"
+    network_prefix = "10.0"
   }
 }
 
