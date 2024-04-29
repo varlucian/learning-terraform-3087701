@@ -32,11 +32,11 @@ variable "environment" {
 }
 
 variable "asg_min_size" {
-  description "Minimum number of instances in the Autoscaling Group"
+  description = "Minimum number of instances in the Autoscaling Group"
   default = 1
 }
 
 variable "asg_max_size" {
-  description "Maximum number of instances in the Autoscaling Group"
+  description = "Maximum number of instances in the Autoscaling Group"
   default = 2
 }
